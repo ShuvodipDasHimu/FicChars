@@ -1,0 +1,596 @@
+{
+  "categories": {
+    "anime": [
+      {
+        "id": "anime_001",
+        "name": "Roronoa Zoro",
+        "series": "One Piece",
+        "role": "Protagonist",
+        "aliases": ["Pirate Hunter", "King of Hell"],
+        "appearance": {
+          "description": "Green hair, three earrings, scar over left eye, always with three swords.",
+          "image_url": "https://i.postimg.cc/KvmHB2PH/zoro.webp"
+        },
+        "personality": {
+          "traits": ["Loyal", "Stoic", "Determined"],
+          "moral_alignment": "Chaotic Good",
+          "motivations": "Become the world's greatest swordsman."
+        },
+        "abilities": {
+          "skills": ["Three-Sword Style", "Haki"],
+          "power_level": 8,
+          "signature_move": "Asura"
+        },
+        "backstory": {
+          "history": "Trained under Koshiro, joined Straw Hat Pirates to achieve his dream.",
+          "key_moments": ["Defeated Mihawk's shadow", "Took Luffy's pain in Thriller Bark"],
+          "affiliations": ["Straw Hat Pirates"]
+        },
+        "stats": {
+          "strength": 9,
+          "intelligence": 6,
+          "speed": 7,
+          "charisma": 5
+        },
+        "quotes": [
+          "I'm going to be the world's greatest swordsman!",
+          "There's nothing I can't cut."
+        ],
+        "fun_facts": ["Gets lost everywhere", "Sleeps through battles"],
+        "project_hooks": {
+          "tags": ["swordsman", "loyal", "pirate"],
+          "popularity_score": 85,
+          "what_if_scenario": "What if Zoro trained under Vegeta?"
+        }
+      },
+      {
+        "id": "anime_002",
+        "name": "Vegeta IV",
+        "series": "Dragon Ball Z",
+        "role": "Protagonist/Anti-Hero",
+        "aliases": ["Prince of Saiyans", "Badman"],
+        "appearance": {
+          "description": "Spiky black hair, Saiyan armor, intense scowl.",
+          "image_url": "https://i.postimg.cc/TYQHc4QY/vegeta.webp"
+        },
+        "personality": {
+          "traits": ["Proud", "Arrogant", "Redemptive"],
+          "moral_alignment": "Neutral Good",
+          "motivations": "Surpass Goku, protect Earth."
+        },
+        "abilities": {
+          "skills": ["Super Saiyan transformations", "Ki blasts"],
+          "power_level": 9,
+          "signature_move": "Final Flash"
+        },
+        "backstory": {
+          "history": "Saiyan prince, former villain, became Earth's defender.",
+          "key_moments": ["Sacrificed against Buu", "Fought Frieza"],
+          "affiliations": ["Z Fighters"]
+        },
+        "stats": {
+          "strength": 9,
+          "intelligence": 7,
+          "speed": 8,
+          "charisma": 6
+        },
+        "quotes": [
+          "I am the prince of all Saiyans!",
+          "Pride is my power!"
+        ],
+        "fun_facts": ["Loves his pink shirt", "Bulma's biggest fan"],
+        "project_hooks": {
+          "tags": ["warrior", "prideful", "saiyan"],
+          "popularity_score": 90,
+          "what_if_scenario": "What if Vegeta ran a chemistry lab with Walter White?"
+        }
+      },
+      {
+        "id": "anime_003",
+        "name": "Ryuga Kishatu",
+        "series": "Beyblade: Metal Fusion",
+        "role": "Anti-Hero",
+        "aliases": ["Dragon Emperor"],
+        "appearance": {
+          "description": "White hair, red jacket, intense eyes, carries L-Drago.",
+          "image_url": "https://i.postimg.cc/tgnSpCbY/ryuga.webp"
+        },
+        "personality": {
+          "traits": ["Lone wolf", "Ruthless", "Ambitious"],
+          "moral_alignment": "Chaotic Neutral",
+          "motivations": "Dominate Beyblade battles."
+        },
+        "abilities": {
+          "skills": ["L-Drago Beyblade", "Dark power"],
+          "power_level": 7,
+          "signature_move": "Dragon Emperor Soaring Bite Strike"
+        },
+        "backstory": {
+          "history": "Possessed by L-Drago's dark power, seeks ultimate strength.",
+          "key_moments": ["Defeated Gingka", "Sacrificed L-Drago"],
+          "affiliations": ["Dark Nebula (formerly)"]
+        },
+        "stats": {
+          "strength": 8,
+          "intelligence": 6,
+          "speed": 7,
+          "charisma": 4
+        },
+        "quotes": [
+          "I am the ultimate blader!",
+          "L-Drago will crush you!"
+        ],
+        "fun_facts": ["Obsessed with dragons", "Hates teamwork"],
+        "project_hooks": {
+          "tags": ["beyblader", "anti-hero", "dark"],
+          "popularity_score": 70,
+          "what_if_scenario": "What if Ryuga teamed up with Lalo Salamanca?"
+        }
+      },
+      {
+        "id": "anime_004",
+        "name": "Gouenji Shuuya",
+        "series": "Inazuma Eleven",
+        "role": "Protagonist",
+        "aliases": ["Flame Striker"],
+        "appearance": {
+          "description": "Spiky orange hair, soccer uniform, fiery aura.",
+          "image_url": "https://i.postimg.cc/dQjWqxbm/gouenji.webp"
+        },
+        "personality": {
+          "traits": ["Passionate", "Loyal", "Leader"],
+          "moral_alignment": "Lawful Good",
+          "motivations": "Inspire teammates, win through soccer."
+        },
+        "abilities": {
+          "skills": ["Fire Tornado", "Soccer techniques"],
+          "power_level": 6,
+          "signature_move": "Explosive Storm"
+        },
+        "backstory": {
+          "history": "Star striker who overcame family tragedy to lead Raimon.",
+          "key_moments": ["Scored against Aliea Academy", "Inspired Endou"],
+          "affiliations": ["Raimon Eleven"]
+        },
+        "stats": {
+          "strength": 7,
+          "intelligence": 6,
+          "speed": 8,
+          "charisma": 7
+        },
+        "quotes": [
+          "Let's burn the field with our passion!",
+          "Soccer is our bond!"
+        ],
+        "fun_facts": ["Loves spicy food", "Secretly a great cook"],
+        "project_hooks": {
+          "tags": ["soccer", "leader", "hero"],
+          "popularity_score": 65,
+          "what_if_scenario": "What if Gouenji played chess with Michael Scofield?"
+        }
+      },
+      {
+        "id": "anime_005",
+        "name": "Aizen Sosuke",
+        "series": "Bleach",
+        "role": "Antagonist",
+        "aliases": ["God of Hueco Mundo"],
+        "appearance": {
+          "description": "Slick brown hair, glasses (early), white robes later.",
+          "image_url": "https://i.postimg.cc/XqbD2MTX/aizen.webp"
+        },
+        "personality": {
+          "traits": ["Manipulative", "Genius", "Arrogant"],
+          "moral_alignment": "Lawful Evil",
+          "motivations": "Overthrow Soul King, achieve godhood."
+        },
+        "abilities": {
+          "skills": ["Kido", "Kyoka Suigetsu (illusion zanpakuto)"],
+          "power_level": 9,
+          "signature_move": "Hado 90: Black Coffin"
+        },
+        "backstory": {
+          "history": "Captain of 5th Division, betrayed Soul Society for power.",
+          "key_moments": ["Faked death", "Merged with Hogyoku"],
+          "affiliations": ["Soul Society (formerly)", "Arrancar Army"]
+        },
+        "stats": {
+          "strength": 8,
+          "intelligence": 9,
+          "speed": 7,
+          "charisma": 8
+        },
+        "quotes": [
+          "All is within my plan.",
+          "Admiration is the furthest thing from understanding."
+        ],
+        "fun_facts": ["Loves tea ceremonies", "Master of trolling"],
+        "project_hooks": {
+          "tags": ["villain", "strategist", "shinigami"],
+          "popularity_score": 88,
+          "what_if_scenario": "What if Aizen negotiated with Saul Goodman?"
+        }
+      },
+      {
+        "id": "anime_006",
+        "name": "Itachi Uchiha",
+        "series": "Naruto",
+        "role": "Anti-Hero",
+        "aliases": ["Crow of Konoha"],
+        "appearance": {
+          "description": "Long black hair, Sharingan eyes, Akatsuki cloak.",
+          "image_url": "https://i.postimg.cc/85W0BkXq/itachi.webp"
+        },
+        "personality": {
+          "traits": ["Selfless", "Stoic", "Tragic"],
+          "moral_alignment": "Neutral Good",
+          "motivations": "Protect Konoha, save Sasuke."
+        },
+        "abilities": {
+          "skills": ["Mangekyo Sharingan", "Genjutsu"],
+          "power_level": 8,
+          "signature_move": "Amaterasu"
+        },
+        "backstory": {
+          "history": "Uchiha prodigy, sacrificed clan to prevent war.",
+          "key_moments": ["Killed clan", "Died for Sasuke"],
+          "affiliations": ["Konoha", "Akatsuki"]
+        },
+        "stats": {
+          "strength": 7,
+          "intelligence": 9,
+          "speed": 8,
+          "charisma": 6
+        },
+        "quotes": [
+          "People live their lives bound by what they accept as correct.",
+          "I will always love you, Sasuke."
+        ],
+        "fun_facts": ["Loves dango", "Secretly a pacifist"],
+        "project_hooks": {
+          "tags": ["ninja", "tragic", "hero"],
+          "popularity_score": 92,
+          "what_if_scenario": "What if Itachi worked with Mike Ehrmantraut?"
+        }
+      },
+      {
+        "id": "anime_007",
+        "name": "L Lawliet",
+        "series": "Death Note",
+        "role": "Protagonist",
+        "aliases": ["World's Greatest Detective"],
+        "appearance": {
+          "description": "Messy black hair, dark circles, slouched posture.",
+          "image_url": "https://i.postimg.cc/6qtYrrvv/l.webp"
+        },
+        "personality": {
+          "traits": ["Genius", "Eccentric", "Logical"],
+          "moral_alignment": "Lawful Good",
+          "motivations": "Catch Kira, uphold justice."
+        },
+        "abilities": {
+          "skills": ["Deduction", "Investigation"],
+          "power_level": 5,
+          "signature_move": "Sugar Cube Analysis"
+        },
+        "backstory": {
+          "history": "Orphan prodigy, became top detective to solve global crimes.",
+          "key_moments": ["Outsmarted Light", "Sacrificed for justice"],
+          "affiliations": ["Task Force"]
+        },
+        "stats": {
+          "strength": 3,
+          "intelligence": 10,
+          "speed": 4,
+          "charisma": 5
+        },
+        "quotes": [
+          "I am L.",
+          "Justice will prevail."
+        ],
+        "fun_facts": ["Eats only sweets", "Sits like a frog"],
+        "project_hooks": {
+          "tags": ["detective", "genius", "quirky"],
+          "popularity_score": 87,
+          "what_if_scenario": "What if L investigated Gus Fring?"
+        }
+      }
+    ],
+    "series": [
+      {
+        "id": "series_001",
+        "name": "Walter White",
+        "series": "Breaking Bad",
+        "role": "Protagonist/Anti-Hero",
+        "aliases": ["Heisenberg"],
+        "appearance": {
+          "description": "Bald, goatee, glasses, often in a hazmat suit.",
+          "image_url": "https://i.postimg.cc/d1MW1PQn/heisenberg.webp"
+        },
+        "personality": {
+          "traits": ["Brilliant", "Manipulative", "Desperate"],
+          "moral_alignment": "Chaotic Neutral",
+          "motivations": "Provide for family, embrace power."
+        },
+        "abilities": {
+          "skills": ["Chemistry", "Strategy"],
+          "power_level": 6,
+          "signature_move": "Blue Candy Synthesis"
+        },
+        "backstory": {
+          "history": "Chemistry teacher turned drug kingpin after cancer diagnosis.",
+          "key_moments": ["Built empire", "Defeated Gus"],
+          "affiliations": ["Meth Empire"]
+        },
+        "stats": {
+          "strength": 4,
+          "intelligence": 9,
+          "speed": 5,
+          "charisma": 7
+        },
+        "quotes": [
+          "I am the one who knocks!",
+          "Say my name."
+        ],
+        "fun_facts": ["Loves car washes", "Terrible at lying to Skyler"],
+        "project_hooks": {
+          "tags": ["chemist", "anti-hero", "kingpin"],
+          "popularity_score": 95,
+          "what_if_scenario": "What if Walter teamed up with Aizen?"
+        }
+      },
+      {
+        "id": "series_002",
+        "name": "Gus Fring",
+        "series": "Breaking Bad",
+        "role": "Antagonist",
+        "aliases": ["Los Pollos Hermanos"],
+        "appearance": {
+          "description": "Neat suit, calm demeanor, glasses.",
+          "image_url": "https://i.postimg.cc/fb1P9SCc/gus.webp"
+        },
+        "personality": {
+          "traits": ["Calculated", "Ruthless", "Polite"],
+          "moral_alignment": "Lawful Evil",
+          "motivations": "Control drug trade, revenge on cartel."
+        },
+        "abilities": {
+          "skills": ["Business management", "Manipulation"],
+          "power_level": 7,
+          "signature_move": "Box Cutter Diplomacy"
+        },
+        "backstory": {
+          "history": "Chilean businessman, built drug empire under fast-food cover.",
+          "key_moments": ["Outsmarted cartel", "Face-off with Walt"],
+          "affiliations": ["Meth Empire", "Los Pollos Hermanos"]
+        },
+        "stats": {
+          "strength": 5,
+          "intelligence": 9,
+          "speed": 6,
+          "charisma": 8
+        },
+        "quotes": [
+          "I hide in plain sight.",
+          "Never make the same mistake twice."
+        ],
+        "fun_facts": ["Obsessed with cleanliness", "Best boss at Los Pollos"],
+        "project_hooks": {
+          "tags": ["businessman", "villain", "strategist"],
+          "popularity_score": 90,
+          "what_if_scenario": "What if Gus mentored Ryuga?"
+        }
+      },
+      {
+        "id": "series_003",
+        "name": "Lalo Salamanca",
+        "series": "Better Call Saul",
+        "role": "Antagonist",
+        "aliases": ["The Charmer"],
+        "appearance": {
+          "description": "Slick hair, flashy shirts, wide smile.",
+          "image_url": "https://i.postimg.cc/mkjV8PY6/lalo.webp"
+        },
+        "personality": {
+          "traits": ["Charismatic", "Sadistic", "Cunning"],
+          "moral_alignment": "Chaotic Evil",
+          "motivations": "Protect Salamanca family, outsmart enemies."
+        },
+        "abilities": {
+          "skills": ["Combat", "Deception"],
+          "power_level": 7,
+          "signature_move": "Kitchen Ambush"
+        },
+        "backstory": {
+          "history": "Salamanca enforcer, infiltrated Gus's operation.",
+          "key_moments": ["Outwitted Kim", "Survived assassination"],
+          "affiliations": ["Salamanca Cartel"]
+        },
+        "stats": {
+          "strength": 7,
+          "intelligence": 8,
+          "speed": 7,
+          "charisma": 9
+        },
+        "quotes": [
+          "You're gonna love me!",
+          "Tell me again."
+        ],
+        "fun_facts": ["Loves cooking tacos", "Never stops smiling"],
+        "project_hooks": {
+          "tags": ["cartel", "charmer", "villain"],
+          "popularity_score": 85,
+          "what_if_scenario": "What if Lalo fought Zoro?"
+        }
+      },
+      {
+        "id": "series_004",
+        "name": "Saul Goodman",
+        "series": "Better Call Saul",
+        "role": "Protagonist/Anti-Hero",
+        "aliases": ["Jimmy McGill"],
+        "appearance": {
+          "description": "Colorful suits, comb-over, sly grin.",
+          "image_url": "https://i.postimg.cc/wjv44Qb5/saul.webp"
+        },
+        "personality": {
+          "traits": ["Witty", "Resourceful", "Morally flexible"],
+          "moral_alignment": "Chaotic Neutral",
+          "motivations": "Win cases, make money, prove himself."
+        },
+        "abilities": {
+          "skills": ["Law", "Con artistry"],
+          "power_level": 5,
+          "signature_move": "Better Call Saul!"
+        },
+        "backstory": {
+          "history": "Small-time lawyer turned criminal advocate.",
+          "key_moments": ["Saved Walt's empire", "Fled to Omaha"],
+          "affiliations": ["Walt's crew"]
+        },
+        "stats": {
+          "strength": 3,
+          "intelligence": 8,
+          "speed": 5,
+          "charisma": 9
+        },
+        "quotes": [
+          "Better call Saul!",
+          "I'm not your lawyer… yet!"
+        ],
+        "fun_facts": ["Loves cheesy commercials", "King of burner phones"],
+        "project_hooks": {
+          "tags": ["lawyer", "conman", "witty"],
+          "popularity_score": 92,
+          "what_if_scenario": "What if Saul defended Itachi?"
+        }
+      },
+      {
+        "id": "series_005",
+        "name": "Michael Scofield",
+        "series": "Prison Break",
+        "role": "Protagonist",
+        "aliases": ["Fish"],
+        "appearance": {
+          "description": "Tattooed body, buzz cut, intense blue eyes.",
+          "image_url": "https://i.postimg.cc/TYQHc4QY/scofield.webp"
+        },
+        "personality": {
+          "traits": ["Genius", "Selfless", "Determined"],
+          "moral_alignment": "Lawful Good",
+          "motivations": "Save Lincoln, protect family."
+        },
+        "abilities": {
+          "skills": ["Engineering", "Planning"],
+          "power_level": 6,
+          "signature_move": "Prison Escape Blueprint"
+        },
+        "backstory": {
+          "history": "Engineer who orchestrated prison break to save brother.",
+          "key_moments": ["Escaped Fox River", "Outsmarted The Company"],
+          "affiliations": ["Fox River Eight"]
+        },
+        "stats": {
+          "strength": 6,
+          "intelligence": 9,
+          "speed": 6,
+          "charisma": 7
+        },
+        "quotes": [
+          "Preparation is everything.",
+          "We're breaking out."
+        ],
+        "fun_facts": ["Tattoo is a map", "Hates origami cranes"],
+        "project_hooks": {
+          "tags": ["engineer", "hero", "planner"],
+          "popularity_score": 88,
+          "what_if_scenario": "What if Michael strategized with L?"
+        }
+      },
+      {
+        "id": "series_006",
+        "name": "Mike Ehrmantraut",
+        "series": "Breaking Bad",
+        "role": "Anti-Hero",
+        "aliases": ["The Cleaner"],
+        "appearance": {
+          "description": "Bald, grizzled, calm expression.",
+          "image_url": "https://i.postimg.cc/3Rgt0Sdh/mike.webp"
+        },
+        "personality": {
+          "traits": ["Loyal", "Practical", "Stoic"],
+          "moral_alignment": "Neutral Good",
+          "motivations": "Provide for granddaughter, do the job right."
+        },
+        "abilities": {
+          "skills": ["Surveillance", "Combat"],
+          "power_level": 6,
+          "signature_move": "Silent Takedown"
+        },
+        "backstory": {
+          "history": "Ex-cop turned fixer for Gus's empire.",
+          "key_moments": ["Protected Jesse", "Outsmarted cartel"],
+          "affiliations": ["Gus's crew"]
+        },
+        "stats": {
+          "strength": 7,
+          "intelligence": 8,
+          "speed": 6,
+          "charisma": 5
+        },
+        "quotes": [
+          "No half measures.",
+          "Just do it right."
+        ],
+        "fun_facts": ["Loves pimento sandwiches", "Grandpa goals"],
+        "project_hooks": {
+          "tags": ["fixer", "loyal", "badass"],
+          "popularity_score": 90,
+          "what_if_scenario": "What if Mike trained Vegeta?"
+        }
+      },
+      {
+        "id": "series_007",
+        "name": "Alexander Mahone",
+        "series": "Prison Break",
+        "role": "Antagonist/Protagonist",
+        "aliases": ["FBI Hunter"],
+        "appearance": {
+          "description": "Short hair, suit, stressed expression.",
+          "image_url": "https://i.postimg.cc/CLMcd4Yy/alex.webp"
+        },
+        "personality": {
+          "traits": ["Brilliant", "Conflicted", "Driven"],
+          "moral_alignment": "Lawful Neutral",
+          "motivations": "Protect family, catch escapees."
+        },
+        "abilities": {
+          "skills": ["Tracking", "Tactics"],
+          "power_level": 6,
+          "signature_move": "FBI Profiling"
+        },
+        "backstory": {
+          "history": "FBI agent tasked with capturing Fox River escapees.",
+          "key_moments": ["Outsmarted Michael", "Joined escapees"],
+          "affiliations": ["FBI", "The Company (briefly)"]
+        },
+        "stats": {
+          "strength": 6,
+          "intelligence": 8,
+          "speed": 6,
+          "charisma": 6
+        },
+        "quotes": [
+          "You can't outrun me.",
+          "I'm coming for you."
+        ],
+        "fun_facts": ["Addicted to pills", "Loves his son"],
+        "project_hooks": {
+          "tags": ["agent", "hunter", "conflicted"],
+          "popularity_score": 80,
+          "what_if_scenario": "What if Mahone tracked Aizen?"
+        }
+      }
+    ]
+  }
+}
