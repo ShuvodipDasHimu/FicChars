@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const FavThree = () => {
   return (
-    <div className="bg-slate-200 py-24 flex flex-col items-center">
+    <div className=" py-24 flex flex-col items-center">
       <h1 className="text-3xl font-bold text-center mb-12 text-gray-800">My Fav 3 Characters out of the Big 3 Anime</h1>
       <div className="flex gap-16 items-center justify-center flex-wrap">
         <div className="flex flex-col items-center py-10 px-8  rounded-2xl shadow-xl hover:bg-purple-100 hover: bg-purple-200 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
@@ -14,7 +14,7 @@ const FavThree = () => {
           />
           <TypeAnimation
             sequence={[
-              'Aizen Sosuke',
+              'Sosuke Aizen',
               1600,
               '',
               700,
