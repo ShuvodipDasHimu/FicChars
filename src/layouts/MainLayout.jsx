@@ -5,11 +5,11 @@ import Footer from '../components/Footer';
 
 const MainLayout = () => {
   return (
-    <div className='max-w-10/12 mx-auto'>
+    <div className='max-w-10/12 mx-auto poppins'>
       <header>
         <Header></Header>
       </header>
-      <section className='min-h-screen'>
+      <section className='min-h-screen shadow-2xl'>
         <Outlet></Outlet>
       </section>
       <footer>

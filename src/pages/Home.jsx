@@ -1,9 +1,12 @@
 import React from "react";
+import FavThree from "../components/FavThree";
 
 const Home = () => {
   return (
-    <div
-      className="hero min-h-screen"
+    <>
+    <div className="space-y-16">
+      <div
+      className="hero min-h-screen shadow-2xl"
       style={{
         backgroundImage:
           "url(https://i.postimg.cc/wM3mxsYJ/AIZEN-LOCK.jpg)",
@@ -19,7 +22,10 @@ const Home = () => {
           <button className="btn btn-outline">Get Started</button>
         </div>
       </div>
+      </div>
+      <FavThree></FavThree>
     </div>
+    </>
   );
 };
 
