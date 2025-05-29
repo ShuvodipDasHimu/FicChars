@@ -17,7 +17,7 @@ const Home = () => {
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
           <p className="mb-5">
-            Welcome! This is a passion project of mine where I will showcase some of my personal favorite fictional characters! Hopefully you have great taste in fictional characters just like I do! <br /> Enjoy!
+            Welcome! This is a passion project of mine where I will showcase some of my personal favorite fictional characters! <br />Hopefully you have great taste in fictional characters just like I do! <br /> Enjoy!
           </p>
           <button className="btn btn-outline">Get Started</button>
         </div>

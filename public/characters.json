@@ -51,7 +51,7 @@
         "aliases": ["Prince of Saiyans", "Badman"],
         "appearance": {
           "description": "Spiky black hair, Saiyan armor, intense scowl.",
-          "image_url": "https://i.postimg.cc/TYQHc4QY/vegeta.webp"
+          "image_url": "https://i.postimg.cc/jqH1D57f/vegeta.webp"
         },
         "personality": {
           "traits": ["Proud", "Arrogant", "Redemptive"],
@@ -128,47 +128,47 @@
         }
       },
       {
-        "id": "anime_004",
-        "name": "Gouenji Shuuya",
-        "series": "Inazuma Eleven",
-        "role": "Protagonist",
-        "aliases": ["Flame Striker"],
-        "appearance": {
-          "description": "Spiky orange hair, soccer uniform, fiery aura.",
-          "image_url": "https://i.postimg.cc/dQjWqxbm/gouenji.webp"
-        },
-        "personality": {
-          "traits": ["Passionate", "Loyal", "Leader"],
-          "moral_alignment": "Lawful Good",
-          "motivations": "Inspire teammates, win through soccer."
-        },
-        "abilities": {
-          "skills": ["Fire Tornado", "Soccer techniques"],
-          "power_level": 6,
-          "signature_move": "Explosive Storm"
-        },
-        "backstory": {
-          "history": "Star striker who overcame family tragedy to lead Raimon.",
-          "key_moments": ["Scored against Aliea Academy", "Inspired Endou"],
-          "affiliations": ["Raimon Eleven"]
-        },
-        "stats": {
-          "strength": 7,
-          "intelligence": 6,
-          "speed": 8,
-          "charisma": 7
-        },
-        "quotes": [
-          "Let's burn the field with our passion!",
-          "Soccer is our bond!"
-        ],
-        "fun_facts": ["Loves spicy food", "Secretly a great cook"],
-        "project_hooks": {
-          "tags": ["soccer", "leader", "hero"],
-          "popularity_score": 65,
-          "what_if_scenario": "What if Gouenji played chess with Michael Scofield?"
-        }
-      },
+  "id": "anime_004",
+  "name": "Shikamaru Nara",
+  "series": "Naruto",
+  "role": "Supporting Protagonist",
+  "aliases": ["Lazy Genius", "Shadow User"],
+  "appearance": {
+    "description": "Black spiky ponytail, wears a Chūnin vest, always has a bored expression.",
+    "image_url": "https://i.postimg.cc/k4vD9WMn/shikamaru.webp"
+  },
+  "personality": {
+    "traits": ["Strategic", "Calm", "Intelligent", "Lazy"],
+    "moral_alignment": "Neutral Good",
+    "motivations": "Protect his comrades, serve the Hidden Leaf, live a peaceful life."
+  },
+  "abilities": {
+    "skills": ["Shadow Possession Jutsu", "Tactics", "Leadership"],
+    "power_level": 7,
+    "signature_move": "Shadow Paralysis Technique"
+  },
+  "backstory": {
+    "history": "A gifted strategist from the Nara clan, Shikamaru became a Chūnin during the Chūnin Exams and later served as an advisor to the Hokage.",
+    "key_moments": ["Led mission against Sound Four", "Avenged Asuma", "Became Naruto's right-hand advisor"],
+    "affiliations": ["Hidden Leaf Village", "Team 10"]
+  },
+  "stats": {
+    "strength": 4,
+    "intelligence": 10,
+    "speed": 5,
+    "charisma": 6
+  },
+  "quotes": [
+    "What a drag...",
+    "Sometimes I wish I was a cloud, just floating along."
+  ],
+  "fun_facts": ["Loves shogi", "Often seen cloud-gazing", "Developed advanced shadow techniques"],
+  "project_hooks": {
+    "tags": ["strategist", "shadow jutsu", "nara clan"],
+    "popularity_score": 85,
+    "what_if_scenario": "What if Shikamaru led the Akatsuki with his intelligence?"
+  }
+},
       {
         "id": "anime_005",
         "name": "Aizen Sosuke",
@@ -294,7 +294,49 @@
           "popularity_score": 87,
           "what_if_scenario": "What if L investigated Gus Fring?"
         }
-      }
+      },
+      {
+  "id": "anime_008",
+  "name": "Nate River",
+  "series": "Death Note",
+  "role": "Protagonist",
+  "aliases": ["Near"],
+  "appearance": {
+    "description": "White hair, pale skin, wears white pajamas or suits, often playing with toys.",
+    "image_url": "https://i.postimg.cc/L817nTc3/nate.webp"
+  },
+  "personality": {
+    "traits": ["Analytical", "Calm", "Introverted"],
+    "moral_alignment": "Lawful Good",
+    "motivations": "Succeed L, solve the Kira case, uphold justice."
+  },
+  "abilities": {
+    "skills": ["Deduction", "Strategic Thinking"],
+    "power_level": 5,
+    "signature_move": "Puzzle Masterstroke"
+  },
+  "backstory": {
+    "history": "Raised in Wammy's House as L's successor, took on the Kira investigation after L's death.",
+    "key_moments": ["Outsmarted Light Yagami", "Led SPK to bring Kira to justice"],
+    "affiliations": ["SPK", "Wammy's House"]
+  },
+  "stats": {
+    "strength": 2,
+    "intelligence": 10,
+    "speed": 3,
+    "charisma": 4
+  },
+  "quotes": [
+    "If you can't win the game, if you can't solve the puzzle, you're nothing but a loser.",
+    "L said there are no such things as coincidences in this world."
+  ],
+  "fun_facts": ["Obsessed with toys and puzzles", "Sits and crouches like L"],
+  "project_hooks": {
+    "tags": ["detective", "successor", "genius"],
+    "popularity_score": 80,
+    "what_if_scenario": "What if Near teamed up with Sherlock Holmes?"
+  }
+}
     ],
     "series": [
       {
