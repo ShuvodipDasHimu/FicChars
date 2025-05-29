@@ -16,10 +16,10 @@ const AnimeChars = () => {
   })
   return (
     <>
-    <div className='max-w-5/6 mx-auto mt-2'>
-      {animeChars && <div className='grid grid-cols-2 gap-6'>
-      {animeChars.map((indChars)=><div className='shadow-lg flex items-center gap-4'>
-        <div>
+    <div className='mt-2 p-2 border-transparent'>
+      {animeChars && <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
+      {animeChars.map((indChars)=><div className='shadow-lg flex flex-col items-center gap-4 border-2 border-slate-200 rounded-lg bg-sky-50 p-12'>
+        <div className='p-4 rounded-lg'>
           <img className='w-[200px] rounded-lg' src={indChars.appearance.image_url} alt="" />
         </div>
         <div>
