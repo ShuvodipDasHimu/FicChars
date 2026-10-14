@@ -1,68 +1,56 @@
-import React from 'react';
-import { TypeAnimation } from 'react-type-animation';
+import React from "react";
+import { TypeAnimation } from "react-type-animation";
+
+const favorites = [
+  {
+    name: "Sosuke Aizen",
+    alt: "Aizen Sosuke",
+    image: "https://i.postimg.cc/vB78qfqd/fav3aizen.webp",
+    accent: "border-purple-500/40 hover:bg-purple-500/10",
+    text: "text-purple-500",
+  },
+  {
+    name: "Itachi Uchiha",
+    alt: "Itachi Uchiha",
+    image: "https://i.postimg.cc/W3cbwX7n/fav3itachi.webp",
+    accent: "border-red-500/40 hover:bg-red-500/10",
+    text: "text-red-500",
+  },
+  {
+    name: "Roronoa Zoro",
+    alt: "Roronoa Zoro",
+    image: "https://i.postimg.cc/Pqw5DB1J/fav3zoro.webp",
+    accent: "border-green-500/40 hover:bg-green-500/10",
+    text: "text-green-500",
+  },
+];
 
 const FavThree = () => {
   return (
-    <div className=" py-24 flex flex-col items-center">
-      <h1 className="text-3xl font-bold text-center mb-12 text-gray-800">My Fav 3 Characters out of the Big 3 Anime</h1>
-      <div className="flex gap-16 items-center justify-center flex-wrap">
-        <div className="flex flex-col items-center py-10 px-8  rounded-2xl shadow-xl hover:bg-purple-100 hover: bg-purple-200 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-          <img
-            className="w-80 h-[350px] rounded-lg shadow-lg"
-            src="https://i.postimg.cc/vB78qfqd/fav3aizen.webp"
-            alt="Aizen Sosuke"
-          />
-          <TypeAnimation
-            sequence={[
-              'Sosuke Aizen',
-              1600,
-              '',
-              700,
-            ]}
-            wrapper="span"
-            speed={50}
-            repeat={Infinity}
-            className="mt-4 text-3xl font-mono text-purple-600"
-          />
-        </div>
-        <div className="flex flex-col items-center py-10 px-8  rounded-2xl shadow-xl hover:bg-red-100 bg-red-200 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-          <img
-            className="w-80 h-[350px] rounded-lg shadow-lg"
-            src="https://i.postimg.cc/W3cbwX7n/fav3itachi.webp"
-            alt="Itachi Uchiha"
-          />
-          <TypeAnimation
-            sequence={[
-              'Itachi Uchiha',
-              1600,
-              '',
-              700,
-            ]}
-            wrapper="span"
-            speed={50}
-            repeat={Infinity}
-            className="mt-4 text-3xl font-mono text-red-600"
-          />
-        </div>
-        <div className="flex flex-col items-center py-10 px-8  rounded-2xl shadow-xl hover:bg-green-50 bg-green-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-          <img
-            className="w-80 h-[350px] rounded-lg shadow-lg"
-            src="https://i.postimg.cc/Pqw5DB1J/fav3zoro.webp"
-            alt="Roronoa Zoro"
-          />
-          <TypeAnimation
-            sequence={[
-              'Roronoa Zoro',
-              1600,
-              '',
-              700,
-            ]}
-            wrapper="span"
-            speed={50}
-            repeat={Infinity}
-            className="mt-4 text-3xl font-mono text-green-600"
-          />
-        </div>
+    <div className="px-4 py-12 sm:px-6 sm:py-16 lg:py-24">
+      <h1 className="mb-8 text-center text-2xl font-bold text-base-content sm:mb-12 sm:text-3xl">
+        My Fav 3 Characters out of the Big 3 Anime
+      </h1>
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 lg:grid-cols-3 lg:gap-10">
+        {favorites.map((fav) => (
+          <div
+            key={fav.name}
+            className={`flex flex-col items-center rounded-2xl border bg-base-200 px-4 py-8 shadow-xl transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.03] sm:px-8 sm:py-10 ${fav.accent}`}
+          >
+            <img
+              className="h-64 w-full max-w-xs rounded-lg object-cover shadow-lg sm:h-[350px]"
+              src={fav.image}
+              alt={fav.alt}
+            />
+            <TypeAnimation
+              sequence={[fav.name, 1600, "", 700]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+              className={`mt-4 text-2xl font-mono sm:text-3xl ${fav.text}`}
+            />
+          </div>
+        ))}
       </div>
     </div>
   );

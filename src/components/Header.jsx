@@ -1,16 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router";
+import { useTheme } from "../context/ThemeContext";
+
+const navItems = [
+  { to: "/", label: "Home" },
+  { to: "/animechars", label: "AnimeChars" },
+  { to: "/serieschars", label: "SeriesChars" },
+  { to: "/gamechars", label: "GameChars" },
+];
+
+const linkClass = ({ isActive }) =>
+  isActive
+    ? "bg-primary text-primary-content font-semibold"
+    : "text-base-content";
 
 const Header = () => {
-  const [theme, setTheme] = useState(true);
-  const toggleTheme = () => {
-  const currentTheme = document.documentElement.getAttribute("data-theme");
-  const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-  document.documentElement.setAttribute('data-theme', newTheme);
-  setTheme(!theme);
-  }
+  const { theme, toggleTheme } = useTheme();
+
   return (
-    <div className="navbar bg-base-300 shadow-lg">
+    <div className="navbar bg-base-200 text-base-content shadow-lg px-2 sm:px-4">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -21,59 +29,51 @@ const Header = () => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              {" "}
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
-              />{" "}
+              />
             </svg>
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content z-50 mt-3 w-52 rounded-box border border-base-300 bg-base-200 p-2 text-base-content shadow-lg"
           >
-             <li>
-            <NavLink>Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/animechars">AnimeChars</NavLink>
-          </li>
-          <li>
-            <NavLink to="/serieschars">SeriesChars</NavLink>
-          </li>
-          <li>
-            <NavLink to="/gamechars">GameChars</NavLink>
-          </li>
-          <li>
-            <NavLink>AboutDev</NavLink>
-          </li>
+            {navItems.map((item) => (
+              <li key={item.to}>
+                <NavLink to={item.to} className={linkClass}>
+                  {item.label}
+                </NavLink>
+              </li>
+            ))}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">FicChars</a>
+        <NavLink to="/" className="btn btn-ghost text-lg sm:text-xl px-2 sm:px-4">
+          FicChars
+        </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li>
-            <NavLink>Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/animechars">AnimeChars</NavLink>
-          </li>
-          <li>
-            <NavLink to="/serieschars">SeriesChars</NavLink>
-          </li>
-          <li>
-            <NavLink to="/gamechars">GameChars</NavLink>
-          </li>
-          <li>
-            <NavLink>AboutDev</NavLink>
-          </li>
+          {navItems.map((item) => (
+            <li key={item.to}>
+              <NavLink to={item.to} className={linkClass}>
+                {item.label}
+              </NavLink>
+            </li>
+          ))}
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn" onClick={()=>toggleTheme()}>{theme ? '🌙' : '🔆'}</a>
+        <button
+          type="button"
+          className="btn btn-ghost"
+          onClick={toggleTheme}
+          aria-label="Toggle color theme"
+        >
+          {theme === "light" ? "🌙" : "🔆"}
+        </button>
       </div>
     </div>
   );
